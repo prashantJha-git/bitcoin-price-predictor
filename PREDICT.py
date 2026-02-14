@@ -7,7 +7,7 @@ from pathlib import Path
 # PATH SETUP
 
 BASE_DIR = Path(__file__).resolve().parent
-data_path = BASE_DIR / "btcusd_1-min_data.csv"
+data_path = BASE_DIR / "data" / "btcusd_1-min_data.csv"
 
 if not data_path.exists():
     raise FileNotFoundError(f"Data CSV not found AT: {data_path}")
@@ -76,4 +76,5 @@ prediction = np.exp(model.predict(p))
 print("\nFor Given Data:")
 print(p)
 print("\nPredicted Close Value =", round(prediction[0], 2))
+
 print("Mean Absolute Error on Test Data =", round(mae, 2))
