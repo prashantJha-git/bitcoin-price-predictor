@@ -1,4 +1,6 @@
+```
 # Bitcoin Price Predictor
+```
 
 This is a beginner-level machine learning project that predicts Bitcoin closing prices using a Decision Tree Regressor.
 
@@ -12,7 +14,9 @@ The goal of this project is to practice key machine learning concepts, including
 
 ---
 
-## Project Description
+```
+# Project Description
+```
 
 The model is trained on historical Bitcoin price data.
 
@@ -28,7 +32,9 @@ The main steps in this project include:
 
 This project was developed as part of my learning process in machine learning.
 
-## Model Information
+```
+# Model Information
+```
 
 Algorithm: DecisionTreeRegressor  
 Max Depth: 8  
@@ -38,16 +44,19 @@ Evaluation Metric: Mean Absolute Error (MAE)
 
 ---
 
-## Technologies Used
+```
+# Technologies Used
+```
 
-- Python
 - NumPy
 - Pandas
 - Scikit-learn
 
 ---
 
-## Project Structure
+```
+# Project Structure
+```
 
 ```
 bitcoin-price-predictor/
@@ -62,13 +71,16 @@ bitcoin-price-predictor/
 
 ---
 
-## Dataset
+```
+# Dataset
+```
 
 The dataset is not included in this repository because the file size exceeds GitHub limits.
 
 To run this project:
 
-1. Download the Bitcoin historical dataset.
+1. Download the Bitcoin historical dataset. It can be downloaded from:
+https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
 2. Place the file inside the `data/` folder.
 3. Rename it to:
 
@@ -76,7 +88,9 @@ btcusd_1-min_data.csv
 
 ---
 
-## How to Run
+```
+# How to Run
+```
 
 Clone the repository:
 
@@ -107,6 +121,8 @@ The model will print the predicted closing price and the Mean Absolute Error.
 
 ---
 
-## License
+```
+# License
+```
 
 This project is licensed under the MIT License.
